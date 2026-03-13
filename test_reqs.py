@@ -3,7 +3,7 @@ import numpy as np
 import time
 import random
 
-BASE_URL = "http://localhost:8080"
+BASE_URL = "https://ml-model-deploy-525955513347.europe-west3.run.app"
 
 def test_health_check():
     response = requests.get(f"{BASE_URL}/health")
